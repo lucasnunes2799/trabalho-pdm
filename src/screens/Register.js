@@ -21,17 +21,20 @@ const handleProfile = () => {
             <View style={styles.container}>
                 <TextInput 
                 placeholder='Nome' 
+                placeholderTextColor='#fff'
                 style={styles.input} 
                 value={nam}
                 onChangeText={names}/>
                 <TextInput 
                 placeholder='Email' 
+                placeholderTextColor='#fff'
                 style={styles.input}
                 keyboardType='email-address' 
                 value={email}
                 onChangeText={emails}/>
                 <TextInput 
                 placeholder='Senha' 
+                placeholderTextColor='#fff'
                 style={styles.input}
                 secureTextEntry={true} 
                 value={password}
@@ -52,7 +55,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         alignItems: 'center',
-        backgroundColor: '#023B44'
+        backgroundColor: '#00DAFF'
     },
     buttom: {
         marginTop: 20,
@@ -72,5 +75,5 @@ const styles = StyleSheet.create({
         paddingLeft: 15,
         borderRadius: 15,
         fontSize: 20,
-    }
+    },
 });

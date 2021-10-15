@@ -14,7 +14,7 @@ export default function Login ({navigation}){
   const handleProfile = () => {
     console.log("handleProfile {"+ username+","+hidePass+"}");
 
-    navigation.navigate('Profile', {name: username, email: "lucasnunespinto@hotmail.com"})
+    navigation.navigate('Profile', {name: username})
 
 }
 
@@ -26,7 +26,7 @@ export default function Login ({navigation}){
 
   return (
     <View style={styles.container}>
-
+        
         <Image
           style={styles.tinyLogo}
           source={{uri: 'https://i.ibb.co/spSrDRR/IFUNNY-removebg-preview.png'}}
@@ -78,12 +78,12 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
-    backgroundColor: '#68EFAA',
+    backgroundColor: '#00DAFF',
   },
   inputArea: {
     flexDirection: 'row',
     width: '90%',
-    backgroundColor: '#121212',
+    backgroundColor: '#036D7F',
     borderRadius: 5,
     heigh: 50,
     alignItems: 'center',
@@ -99,7 +99,7 @@ const styles = StyleSheet.create({
   inputAreaLogin: {
     flexDirection: 'row',
     width: '90%',
-    backgroundColor: '#121212',
+    backgroundColor: '#036D7F',
     borderRadius: 5,
     heigh: 50,
     alignItems: 'center',
@@ -121,7 +121,7 @@ const styles = StyleSheet.create({
   buttom: {
     marginTop: 20,
     padding: 15,
-    backgroundColor: '#4286f4',
+    backgroundColor: '#023B44',
     borderRadius: 10,
   },
   buttomText: {
