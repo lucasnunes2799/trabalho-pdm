@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { StyleSheet, View, Text, Image, TextInput, TouchableOpacity, Touchable } from 'react-native';
 import { Ionicons } from '@expo/vector-icons'
-import Register from './Register';
-import { Redirect } from 'react-router';
 
 
 export default function Login ({navigation}){
@@ -10,6 +8,7 @@ export default function Login ({navigation}){
   const [username, onChangeUsername] = React.useState("");
   const [input, setInput] = useState('');
   const [hidePass, setHidePass] = useState(true);
+
 
   const handleProfile = () => {
     console.log("handleProfile {"+ username+","+hidePass+"}");

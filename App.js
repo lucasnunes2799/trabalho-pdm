@@ -7,7 +7,6 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Login from './src/screens/Login';
 import Register from  './src/screens/Register';
 import Profile from  './src/screens/Profile';
-import { ImageBackground } from 'react-native';
 
 
 
